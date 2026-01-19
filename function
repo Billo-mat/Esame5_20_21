@@ -1,0 +1,12 @@
+# ### Exercise 4 (max 7 points)
+#
+# Define a function that takes two random walks, described by the coordinates of the traversed dots, and computes a new one. The resulting walk:
+# 1. the first step is taken from the first path
+# 2. the second step is the first step of the second path applied on the current position resulting after 1.
+# 3. the next steps are computed in the same way alternating steps from the first and the second path; if one path is shorter, when it finishes the next steps come from the remaining part of the longer path
+#
+# For example: if the two walks are `[(0,0), (1,1), (1,2), (1,3)]` and `[(1,0), (0,1)]`, 
+# the resulting walk is `[(0,0), (-1,1), (0,2), (0,3), (0,4)]`
+#
+#
+# To get the full marks, you should declare correctly the type hints and add a doctest string.
